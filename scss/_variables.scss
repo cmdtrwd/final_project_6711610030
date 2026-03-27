@@ -1,0 +1,25 @@
+// ─── BRAND COLORS ───────────────────────────────────
+$color-black:          #231F20;
+$color-white-1:        #F0EDE5;
+$color-white-2:        #F7E7D8;
+
+// ─── TEAM ACCENT COLORS ─────────────────────────────
+$color-nathan-blue:    #3137FD;
+$color-kennth-orange:  #FC6909;
+
+// ─── STRUCTURAL VARIABLES ───────────────────────────
+$base-spacing:         8px;
+$container-max-width:  100%;   
+
+// ─── BREAKPOINT (mobile-first → desktop at 768px) ───
+$bp-desktop:           768px;
+
+// ─── ALIASES FOR STYLES.SCSS ────────────────────────
+$gap:       $base-spacing;
+$max-width: $container-max-width;
+$desktop:   $bp-desktop;
+
+$black:  $color-black;
+$white:  $color-white-1;
+$blue:   $color-nathan-blue;
+$orange: $color-kennth-orange;

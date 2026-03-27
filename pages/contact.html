@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | The Nerds</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+<header class="site-header" id="site-header">
+    <div class="logo"><a href="../index.html"><img src="../images/logo.png" alt="The Nerds logo" class="logo-icon"> <span>THE NERDS</span></a></div>
+    <nav class="main-nav">
+        <ul>
+            <li><a href="../index.html#about">About</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+    <a href="contact.html" class="btn btn-primary nav-cta">Let's Talk</a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+    </button>
+</header>
+
+<!-- PAGE HERO -->
+<section class="page-hero-simple dark-bg">
+    <div class="container">
+        <h1 class="fade-in">LET'S<br><span class="text-blue">COLLABORATE</span></h1>
+        <p class="page-subtitle fade-in">Tell us about your project and we'll get back within 24 hours.</p>
+    </div>
+</section>
+
+<section class="contact-page light-bg">
+    <div class="container">
+        <div class="contact-grid">
+
+            <div class="contact-left slide-up">
+                <h2>Contact Us</h2>
+                <p>Ready to build something extraordinary? Send us a message or reach out directly below.</p>
+                <div class="contact-info-list">
+                    <div class="info-item">
+                        <p class="info-label">Email</p>
+                        <p class="info-value"><a href="mailto:hello@thenerds.com">hello@thenerds.com</a></p>
+                    </div>
+                    <div class="info-item">
+                        <p class="info-label">Phone</p>
+                        <p class="info-value"><a href="tel:+66812345678">+66 123 456 789</a></p>
+                    </div>
+                    <div class="info-item">
+                        <p class="info-label">Location</p>
+                        <p class="info-value">Hat Yai, Songkhla, TH</p>
+                    </div>
+                </div>
+            </div>
+
+        
+            <form
+                class="contact-form slide-up"
+                name="contact"
+                action="#"
+                method="POST"
+                novalidate
+            >
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="e.g. Alex Parker"
+                        required
+                        autocomplete="name"
+                    >
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="e.g. alex@domain.com"
+                        required
+                        autocomplete="email"
+                    >
+                </div>
+                <div class="form-group">
+                    <label for="project">Project Brief</label>
+                    <textarea
+                        id="project"
+                        name="project"
+                        placeholder="Tell us about your project..."
+                        required
+                    ></textarea>
+                </div>
+                <button type="submit" class="btn btn-blue">Send Message</button>
+            </form>
+
+        </div>
+    </div>
+</section>
+
+<footer class="site-footer dark-bg">
+    <div class="container">
+        <div class="footer-bottom">
+            <p>&copy; 2024 The Nerds. All rights reserved.</p>
+            <a href="mailto:hello@thenerds.com">hello@thenerds.com</a>
+        </div>
+    </div>
+</footer>
+
+<script src="../js/script.js"></script>
+</body>
+</html>

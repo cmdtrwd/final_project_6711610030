@@ -1,0 +1,20 @@
+// ─── 1. Web Fonts (CDN) ─────────────────────────────
+
+@import url('https://fonts.cdnfonts.com/css/creato-display');
+
+// ─── 2. Local Fonts ─────────────────────────────────
+@font-face {
+    font-family: 'Hanson Bold';
+    src: url('../fonts/hanson-bold-webfont.woff2') format('woff2'),
+         url('../fonts/hanson-bold-webfont.woff')  format('woff');
+    font-weight: 700;
+    font-style:  normal;
+    font-display: swap;
+}
+
+// ─── 3. Typography Variables ─────────────────────────
+$font-heading: 'Hanson Bold', Impact, sans-serif;
+$font-body:    'Creato Display', Arial, sans-serif;
+
+// Alias used throughout styles.scss
+$font-head: $font-heading;
